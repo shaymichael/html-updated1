@@ -1,0 +1,221 @@
+<html>
+<head>
+	<title>updated html study</title>
+</head>
+<body style="background-color:BurlyWood;text-align:center"><!--אם רוצה לשים גם צבע רקע וגם תמונת פנדה?-->
+<h1 style=";color:CadetBlue;font-size:48px;font-family: Georgia, serifbig;"> HTML - Hyper Text Markup Language</h1>
+<h2 style="color:DarkOliveGreen;font-family:Georgia,serif;text-align:left;">A document that is made up of two important parts:</h2>
+	<ul style="font-family:Tahoma,sans-serif;font-size:18px;text-align:left;"><b>
+	<li><big>document creation</big> - What users will see </li> <!-- איך אני יוצר רווח שיראה בדפדפן?-->
+	<li><big>tags</big> - How users will see the content </li></b>
+	</ul>
+	
+	<p style="font-family:Tahoma,sans-serif;font-size:18px;"><b>#Hierarchical language</b> -> A tag can be contained within another tag "nested"</p>
+	<p style="font-size:18px;font-family:Tahoma,sans-serif;"><tt>Html stracture has an openning tag and closing tag like <u>this</u> <b>sytex</b>
+<span style="color:red">< tag > content < / tag ></span></tt></p>
+<!--in html we can writh notes that will not be seen in the browser like this-->
+<h2 style="border:4px black;font-family:Tahoma,sans-serif">syntex</h2> <!--איך עושים שהמסגרת תקיף רק את הטקסט ולא תחרוג? 
+ואיך עושים צבע אחר במסגרת? -->
+<p style="font-size:17px;font-family:Tahoma,sans-serif;color:black;"><tt><b>< html > open and define the document<br/>
+< head ><br/> content will not be display<br/>
+< title > page name in browser < / title ><br/>
+< / head ><br/>
+< body > content that will be seen < / body ><br/>
+< / html ></b>
+</body>
+</html>
+</tt></p>
+<p style="border:6px BurlyWood;paddind 25px;background:lightblue;background-clip:padding-box;font-size:24px;">tags always written in "lowercase"</p><!--לשחק עם זה-->
+<p style="font-size:20px;font-family:Tahoma,sans-serif;color:black;"><tt>hi<br/><!--תג אלמנט ריק הוא בעצם ללא תוכן ולכן לא צריך תג סוגר
+אנחנו יכולים לרדת שורה בעזרת התג הזה <br/> ללא תג סוגר    תג מסוג LINE שימוש רק בבלוק כמו < p>
+אנחנו יכולים לרדת שורה ולצייר קו רוחב חוצץ בעזרת התג הזה <hr/>bodyללא תג סוגר תג מסוג בלוק ניתן להשתמש רק בתוך המבנה הבסיסי כמו ה --> 
+we can go<br/>
+down one line useing this tag < br / ><br/>
+<br/>
+we can go down one line and draw a horizon dividing line using < hr / ><br/>
+<br/>
+< p > is a tag that makes peregrafe, this tag has colosing tag<br/> < / p >
+after < / p > will leave one space line<br/>
+h1 - h6 diffrent size of headlines from 1 till 6 the smallest<br/>
+exp: < h1 > content < /h1 >
+<h2>im no.2</h2>
+</tt></p>
+
+<p style="font-size:20px;font-family:Tahoma,sans-serif;color:black;"> link tag < a href="the link" > name of the link shown to users < /a ><br/>
+exp : 
+<a href="https://www.w3schools.com/html/html_links.asp">how to make hyperlink</a><br/>
+if you want the link open in a new window add this after the coots sign in link: <span style="color:red"> target="blank"</span><br/>
+exp : <a href="https://www.w3schools.com/html/html_links.asp" target="blank">how to make hyper link new window</a><br/>
+</p>
+<!-- עריכה בעזרת שני האלמנטים שלמדנו, a ו- img ניתן ליצור קישור מתמונה. לחיצה על התמונה תוביל אותנו לדף החדש. נעשה זאת באמצעות קינון תג img בתוך אלמנט a - תוכן האלמנט a לא יהיה טקסט אלא תג תמונה. דוגמה-->
+<p>
+<a href="http://he.wikibooks.org">
+<img src="http://upload.wikimedia.org/wikipedia/commons/7/70/Wikibooks-logo-he.png" alt="ויקיספר העברי" /> <!--איך ליצור שיפתח בחלון נפרד? איך בודק שALT עובד? -->
+</a>
+</p>
+
+<p style="font-size:17px;font-family:Tahoma,sans-serif;color:black;">
+<span style="color:red;font-size:24px;">text design tags :</span> <u>< u ></u> <b>< b ></b> <i>< i ></i> <sub>< sub ></sub> <sup>< sup ></sup> <big>< big ></big> <small>< small ></small><br/>
+< tt > - Typewriter Text  <br/><!--גופן בגודל אחיד מזכיר מכונת כתיבה
+exp : <b>headlines (h1-h6) already default bolded</b><br/>
+ <!--אפשר לשנות חלקים מטקסט ולא רק שורות שלמות או פסקאות
+ אפשר ממש לשנות רק אות אחת המילה בתוך טקסט שלם-->
+ <br/><p style="font-size:17px;font-family:Tahoma,sans-serif;color:black;"><b> we can import img by using:</b> if the files are in the same library < img src="filename.jpg"> <br/>
+if in other library for exp "images" : < img src="images/filename.jpg"/><br/>
+<big>src = attribute</big><br/> < img src = "image path"/ > <br/>
+online import < img src = "url"/ ><br/>
+using <span style="color:red;">alt</span> will describe textually the picture before the broweser loading it,the description also will be shawn if the mouse hover the image without clicking it<br/>
+< img src="http://upload.wikimedia.org/wikipedia/commons/8/80/Polygonia_c-album_DePanne.jpg" alt="פרפרים" / >
+</p>
+<!--אלמנטים מסוג גוש, כמו p ו- h1 הם אלמנטים שמופרדים מהאלמנטים האחרים על ידי מעבר שורה.
+
+אלמנטים מסוג שורה, כמו img ו- b ממוקמים בתוך אלמנטים מסוג גוש, וקוראים להם אלמנטים מסוג שורה, כי הם בתוך השורה ואינם גורמים לשבירת שורה. אם תרצה להציג תמונה בשורה נפרדת מהטקסט, יש להפריד אותה בעזרת התג הריק br לפני ואחרי התג img.
+
+אלמנטים מסוג גוש מותר למקם ישירות בתוך body, ואלמנטים מסוג שורה אסור. המשמעות היא שתמונה, אינה מוגדרת כגוש (פיסקה) אלא כרכיב שורה (אות, מילה בפיסקה) וכך היא מתנהגת בדפדפן.<-->
+<div style="font-size:44px;color:cadetblue;"><b><big>css - cascading style sheets</big></b></div>
+<div style="font-family:Georgia,serif;font-size:19px;;text-align:left;">divide the design from the content,dictate how the page should look to the users ways to use:</div><br/>
+
+<ul style="font-family:Georgia,serif;font-size:19px;;text-align:left;">
+	<li>inside the tag with an attribute name style - inline css</li><br/>
+	<li>inside the html fine in the "head" part also using style -internal css</li><br/>
+	<li>external css file - external css</li></ul><br/>
+<p style="font-size:18px;font-family:Georgia,serif;">tags that we use to capture text from a peregrafe and change it :<br/>
+< div > content < / div > Separates and delimits text, display the content in a new line - block<br/>
+< span > content < / span > blend in the text - inline<br/>
+both "div" & "span" dont share the tag before or after they baracs 
+</p>
+ <b style="font-size:28px;">setup link we use</b>
+<div style="font-size:19px;font-family:Georgia,serif;">a = tag<br/>
+href = attribute<br/>
+"url" = value<br/>
+
+selector - where to go<br/>
+declaration - what to do<br/>
+<span style="color:red;">p</span>
+<span style="color:blue;"> {font-size:24px;}</span><br/>
+<span style="color:red;">selector</span>
+<span style="color:blue;"> declaration</span> <br/>
+declartion = proporties & values
+</div>
+
+<h1 style="border:2px solid red;">inline css</h1>
+<span style="font-size:20px;color:cadetblue;"><u>use attribute style</u></span><br/>
+ in every selector we can add style attribute and within it declaration<br/>
+<span style="font-size:17px;">ex: < p style ="color:red" > < /p ><br/>
+< img style ="width:200px" src="path.jpg" / ></span><br/>
+The style attribute specifies an inline style for an element.<br/>
+
+The style attribute will override any style set globally <br/>
+The style attribute is part of the Global Attributes, and can be used on any HTML element.<br/>
+<h1 style="color:DarkOliveGreen;font-family:Georgia,serif;text-align:left;text-align:center;">List of HTML Style Attribute</h1><br/>
+<div style="font-size:20px;font-family:Georgia,serif;text-align:left;"><ol>
+<li><span> Background-Color - <  div style="background-color:blue">My background is blue<  /div> </span></li><br/>
+<li><span>Color- <  div style="color:blue">My font color is blue<  /div></span></li><br/>
+<li><span>Border Color- <  p style="border: 1px solid red">My border is red<  /p> </span></li><br/>
+<li><span> Background-Image- <  div style="background-image: url('https://www.google.com/image/pan.jpg');height :365px">< / div></span></li><br/>
+<li><p>Background-Repeat - some images may need to be repeated either vertically or horizontally, or they may not be needed to be repeated. This behavior can be controlled by setting the desired value against the property of background-repeat>/p></p></li>
+The value “repeat-x” is used to allow the image to be repeated only horizontally.
+
+The value “repeat-y” is used to allow the image to be repeated only vertically.
+
+The value “no-repeat” is used to stop any kind of repetition of the background image.<br/>
+< div style="background-image: url('https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png');height :365px; background-repeat:no-repeat">< / div><br/>
+<br/>
+<li><span>Background-Position- With this property, we can define the position of the background image.< div style="background-image: url('https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png');height :365px; width:500px;background-repeat: no-repeat;  background-position: left bottom;"> < /div></span></li><br/>
+<li><span> margin - are the space between tags or object CSS provides us with properties to set margins on all four sides of an HTML element, or we could add margins to a particular side of the element.</span></li>
+<br/>
+<li><span>Padding -  defines the space between the content of an element and its borders.</span></li>
+<br/>
+<li><span>  Height and Width
+Height and width are the most basic CSS properties used to define the height and width of any HTML element. They can be either set to a pixel value like 200px or a percentage like 10%, 20%, etc.</span></li><br/>
+<li><span>Text-Align
+This property is used to set the horizontal direction in which we’d like to align the text of an element. The value can be set to center, right or left.</span></li><br/>
+<li><span>Text-Decoration can be used to set decorations like underline, line-through or overline over text in HTML.</span></li><br/>
+<  p style="text-decoration:underline">This is underline<  /p><br/>
+<li><span>Letter-Spacing
+As the name suggests, this property is used to define the spacing between letters/characters in a word. It can be assigned a positive or negative pixel value to increase or decrease the spacing between letters.
+
+Example:
+
+< p style="letter-spacing:-3px">My words are overlapped< /p> </span></li><br/>
+<li><span> Line-Height
+Line height defines the distance between vertical lines. Like letter spacing, line height too can be set to a positive or negative pixel value. Let’s review the example below to understand better:
+
+Example:
+< p style="line-height: 0.7px">This paragraph has a small line-height.<br>This paragraph has a small line-height.< /p><br/>
+</li></span><br/>
+<li><span> Text Direction
+Sometimes, if the web page’s content is not in English but some other language like Arabic, which follows a right to the left convention, we would need to change the direction of the text. In such cases, we can reverse text direction.
+
+Example:
+
+< p style="direction: rtl"><bdo dir="ltr">I am right to left</bdo></p ></li><br/>
+</span>
+<li><span> Text Shadow
+This property adds a shadow to the text.
+Example:
+< p style="text-shadow: 3px 2px gray;"> I’ve got a gray shadow< /p></li></span></div>
+
+
+
+
+
+
+
+רשימת הגדרות
+עריכה
+את הרשימה יש ליצור עם האלמנט dl. (פירוש הקיצור definition list - רשימת הגדרות). לאלמנט dl מותר שיהיו בנים משני סוגים: אלמנטים מסוג dt (פירוש הקיצור definition list: term - מונח ברשימת הגדרות) ואלמנטים מסוג dd (פירוש הקיצור definition list: definition - הגדרה ברשימת הגדרות). לרוב הם יופיעו בזוגות. קודם dt עם המונח, ואחר-כך dd עם ההגדרה שלו. לדוגמה:
+
+<dl>
+    <dt> HTML </dt>
+    <dd> פורמט ליצירת דפי אינטרנט </dd>
+
+    <dt> CSS </dt>
+    <dd> פורמט לעיצוב דפי HTML </dd>
+
+    <dt> Javascript </dt>
+    <dd> שפת תסריטים להעשרת דפי אינטרנט </dd>
+</dl>
+בתוך dl יש רק פריטים מסוג dt ו- dd! בתוכם ניתן לשים טקסט ואלמנטים רבים אחרים.
+ל-dd מותר שיהיו בנים מרוב הסוגים. ל-dt לעומת זאת מותר להכיל רק אלמנטים מסוג שורה.
+
+רשימה בתוך רשימה
+עריכה
+ניתן להכניס רשימה בתוך רשימה. הכלל הוא כזה: בתוך li ו- dd מותר לשים תת-רשימות מסוג ul, ol או dl. אסור לשים רשימה כצאצא ישיר של רשימה אחרת, אלא כצאצא ישיר של פריט ברשימה (li ו- dd). ב-dt אסור להכניס עוד רשימות.
+
+דוגמה 1:
+
+<ul>
+  <li> פריט אחד </li>
+  <li> פריט שני
+      <ul>
+        <li> תת-פריט ראשון </li>
+        <li> תת-פריט שני
+             <ol>
+               <li> ממוספר 1 </li>
+               <li> ממוספר 2 
+                    <ol>
+                      <li> תת-ממוספר 1 </li>
+                      <li> תת-ממוספר 2 </li>
+                    </ol>
+               </li>
+               <li> ממוספר 3 </li>
+             </ol>
+        </li>
+        <li> תת-פריט שלישי </li>
+        <li> תת-פריט רביעי </li>
+     </ul>
+  </li>
+  <li> פריט שלישי </li>
+</ul>
+
+<table>
+  <tr>
+    <th>Contact</th>
+    <td>Your Contact Information</td>
+  </tr>
+  <tr>
+    <th>Name</th>
+    <td>Your Name</td>
+  </tr>
+</table>
